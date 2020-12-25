@@ -1,0 +1,63 @@
+# https://en.wikipedia.org/wiki/List_of_landforms
+
+id: JIMS_OVERWORLD
+author: Jimmacle
+version: 0.1.0
+grids:
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - OCEAN
+  - BEACH
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - LOWLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - HIGHLANDS
+  - MOUNTAINS
+frequencies:
+  zone: 2048
+blend:
+  enable: true
+  frequency: 0.2
+  amplitude: 4
+erode:
+  enable: true
+  frequency: 0.001
+  threshold: 0.0015
+  octaves: 3
+noise:
+  noise2d:
+    dimensions: 2
+    type: OpenSimplex2
+    frequency: 0.0075
+    fractal:
+      type: FBm
+      octaves: 5
+  noise3d:
+    dimensions: 3
+    type: OpenSimplex2
+    frequency: 0.0075
+    fractal:
+      type: FBm
+      octaves: 5

@@ -1,0 +1,4 @@
+id: BEACH
+extends: FREQUENCIES
+grid:
+  - [ BEACH ]

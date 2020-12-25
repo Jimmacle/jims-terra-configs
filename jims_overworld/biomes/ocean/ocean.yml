@@ -1,0 +1,11 @@
+id: OCEAN
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - "BLOCK:minecraft:gravel": 255
+vanilla: OCEAN
+
+noise-equation: "-y/48 + 1"

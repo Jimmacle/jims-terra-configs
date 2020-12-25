@@ -1,0 +1,6 @@
+id: BEDROCK_LITTLE
+layers:
+  - materials:
+      - "minecraft:bedrock": 1
+      - "minecraft:stone": 2
+    layers: 1

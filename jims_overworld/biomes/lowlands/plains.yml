@@ -1,0 +1,12 @@
+id: PLAINS
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - GRASSY: 255
+vanilla: PLAINS
+erode: OCEAN
+
+noise-equation: "-((y/60)^2) + 1 + (1/(2 + 10^-noise2d(x, z)))"

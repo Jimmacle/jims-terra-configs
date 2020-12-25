@@ -1,0 +1,15 @@
+# Mountains are generally barren on the surface, but have a
+# higher density of ores underground.
+
+id: MOUNTAINS
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - GRASSY: 255
+vanilla: MOUNTAINS
+erode: OCEAN
+
+noise-equation: "-y/72+1 + (1/(1 + 100^(-noise2d(x, z))))"

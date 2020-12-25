@@ -1,0 +1,12 @@
+id: BEACH
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - SANDY: 255
+vanilla: BEACH
+erode: OCEAN
+
+noise-equation: "-y/63 + 1"
