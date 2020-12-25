@@ -1,0 +1,11 @@
+id: DUNES
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - SANDY: 255
+vanilla: DESERT
+
+noise-equation: "-((y/64)^2) + 1 + (1/(1 + 100^(-noise2d(x * 3, z / 5))))"

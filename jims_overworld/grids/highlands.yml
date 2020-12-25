@@ -1,4 +1,4 @@
 id: HIGHLANDS
 extends: FREQUENCIES
 grid:
-  - [ HILLS ]
+  - [ HILLS, DUNES ]

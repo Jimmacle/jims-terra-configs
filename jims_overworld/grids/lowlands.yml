@@ -1,4 +1,4 @@
 id: LOWLANDS
 extends: FREQUENCIES
 grid:
-  - [ PLAINS ]
+  - [ PLAINS, DESERT ]
